@@ -11,7 +11,7 @@ describe('index', () => {
       expect(nestedTarget()).toEqual(document.querySelector('#nested .target'))
     })
   })
-
+/*
   describe('deepestChild()', () => {
     it('returns the most deeply nested child in #grand-node', () => {
       console.log(deepestChild().innerHTML)
@@ -41,4 +41,5 @@ describe('index', () => {
       }
     })
   })
+*/
 })
